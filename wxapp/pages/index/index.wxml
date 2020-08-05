@@ -1,0 +1,64 @@
+<view>
+  <!--导航栏-->
+  <view class='navbar'>
+    <text class='title'>智能“小黄”</text>
+    <view class='line'></view>
+    <view class='text'>
+      <text style='color:#555'>你的贴心小助手❤</text>
+    </view>
+    <view class='filter filter1'></view>
+    <view class='filter filter2'></view>
+    <view class='filter filter3'></view>
+  </view>
+  <!--滚动信息-->
+  <view class='roller'>
+    <ui-roller>
+      <ui-roller-item>
+        <view class="ui-row">
+          <view class="ui-col ui-col-2">
+            <view class="ui-col-content">
+              <text class='news'>消息</text>
+            </view>
+          </view>
+          <view class="ui-col ui-col-10" style="flex: 0 0 85.66666666666666%;">
+            <view class="ui-col-content" >您有新的警告消息，请注意查收。</view>
+          </view>
+        </view>
+      </ui-roller-item>
+      <ui-roller-item>
+        <view class="ui-row">
+          <view class="ui-col ui-col-2" >
+            <view class="ui-col-content">
+              <text class='news'>通知</text>
+            </view>
+          </view>
+          <view class="ui-col ui-col-11" style="flex: 0 0 85.66666666666666%;">
+            <view class="ui-col-content" bindtap='navigatetoechart'>新的报表已经生成，可以查看。</view>
+          </view>
+        </view>
+      </ui-roller-item>
+    </ui-roller>
+  </view>
+  <view class='line'></view>
+
+  <view class='main-bg'></view>
+    
+  <view class="index-menu">
+		<navigator class="index-menu-item" wx:for="{{indexmenu}}" wx:key="{{item.url}}" url="../{{item.url}}">
+    <span type="{{ item.icon }}" class="icon ui-icon icon-{{ item.icon }}"></span>
+			<text>{{item.text}}</text>
+		</navigator>
+
+    <view class='footer'>
+      <text>copyright hhuc hjm</text>
+    </view>
+	</view>
+
+    <ui-fixed-view bottom="20" right="30" bindtap='messages'>
+    <view class="fixed-view-content">
+      <span class="ui-icon icon-mail" style="font-size: 60rpx;"></span>
+      <ui-badge custom-style="{{customStyle3}}" text="2"></ui-badge>
+    </view>
+  </ui-fixed-view>
+  
+</view>

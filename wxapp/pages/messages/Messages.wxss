@@ -1,0 +1,31 @@
+/* pages/messages/Messages.wxss */
+.delete {
+  width: 80px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+  background: #f22;
+}
+.top_tip {
+  background-color: #fff;
+}
+.top_tip .left_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FCB300;
+  text-align: center;
+  line-height: 50px;
+}
+.top_tip .text .ui-text {
+  font-size: 14px;
+  color: #313338;
+}
+.top_tip .text .ui-view {
+  color: #9C9FA4;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

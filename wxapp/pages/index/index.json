@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "ui-roller": "../../packages/touchui-wx-components/ui-roller/dist/index",
+    "ui-roller-item": "../../packages/touchui-wx-components/ui-roller-item/dist/index",
+    "ui-fixed-view": "../../packages/touchui-wx-components/ui-fixed-view/dist/index",
+    "ui-badge": "../../packages/touchui-wx-components/ui-badge/dist/index"
+  }
+}

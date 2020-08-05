@@ -1,0 +1,6 @@
+/* pages/time/timePage.wxss */
+.text_{
+  height: 60px;
+  line-height: 60px;
+  padding-left: 20px;
+}

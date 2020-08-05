@@ -1,0 +1,3 @@
+/* pages/environment/environmentPage.wxss */
+page{height: 100%;}
+.container_{margin: 0;padding: 0; height: 30%; }

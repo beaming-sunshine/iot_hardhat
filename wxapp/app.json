@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/messages/Messages",
+    "pages/environment/environmentPage",
+    "pages/statistics/statisticsPage",
+    "pages/time/timePage",
+    "pages/personal/PersonalPage",
+    "pages/personal/Suggestions/suggestions"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#efefef",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,49 @@
+<view>
+  <view class='navbar_personal'>
+    <span class="ui-icon icon-arrow-left" bindtap="navagate"></span>
+  </view>
+  <view class="userinfo">
+    <view class="userinfo-avatar">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <open-data class="userinfo-nickname" type="userNickName"></open-data>
+  </view>
+  <view class='user-motto'>
+    <text>这个人很懒，什么都没有留下···</text>
+    <span class="ui-icon icon-write"></span>
+  </view>
+  <view class='list'>
+    <span class="ui-icon icon-bianji"></span>
+    <text>我的信息</text>
+    <span class="ui-icon icon-arrow-right"></span>
+  </view>
+  <view class='line'></view>
+  <view class='list'>
+    <span class="ui-icon icon-api-media"></span>
+    <text>我的设备</text>
+    <span class="ui-icon icon-arrow-right"></span>
+  </view>
+  <view class='line'></view>
+  <view class='list'>
+    <span class="ui-icon icon-people"></span>
+    <text>互动论坛</text>
+    <span class="ui-icon icon-arrow-right"></span>
+  </view>
+  <view class='line'></view>
+  <view class='list' bindtap='suggetions' >
+    <span class="ui-icon icon-comment"></span>
+    <text>意见反馈</text>
+    <span class="ui-icon icon-arrow-right"></span>
+  </view>
+  <view class='line'></view>
+  <view class='list'>
+    <span class="ui-icon icon-help"></span>
+    <text>关于程序</text>
+    <span class="ui-icon icon-arrow-right"></span>
+  </view>
+
+  <view class='hr'></view>
+  <view class='hr'></view>
+</view>
+
+

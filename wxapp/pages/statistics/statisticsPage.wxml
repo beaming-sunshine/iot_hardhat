@@ -1,0 +1,5 @@
+<view class='navbar_normal'>
+  <span class="ui-icon icon-arrow-left" bindtap="navagate"></span>
+</view>
+<image src="http://www.beamingsunshine.cn/images/1.png"></image>
+<image src="http://www.beamingsunshine.cn/images/2.png"></image>

@@ -1,0 +1,7 @@
+/* pages/statistics/statisticsPage.wxss */
+image{
+  width: 95vw;
+  height: 85vw;
+  top:50%;
+  left: 50%;
+}

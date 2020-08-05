@@ -1,0 +1,58 @@
+.navbar_personal{
+  height: 800rpx;
+  width: 100%;
+  font-weight: 600;
+  font-family: '宋体';
+  color: black;
+  padding-left: 20rpx;
+  font-size: 45rpx;
+  padding-top: 65rpx;
+  background-image: url("http://www.beamingsunshine.cn/images/bg.jpg");
+  filter: opacity(0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 350rpx;
+  left: 40%;
+}
+.userinfo-avatar {
+  overflow:hidden;
+  display: block;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color: black;  
+  padding: 30rpx 0 30rpx 30rpx;
+}
+.user-motto{
+  position: absolute;
+  top: 650rpx;
+  left: 20%;
+  color: #ffc107;
+}
+.user-motto text{
+  width: 70%;
+  font-size: 32rpx;
+  margin-right: 20rpx;
+}
+.list{
+  height: 120rpx;
+  line-height: 120rpx;
+  margin-left: 40rpx;
+  color: #ffc107;
+}
+.list text{
+  margin-left: 20rpx;
+}
+.icon-arrow-right{
+  float: right;
+  padding-right: 40rpx;
+  line-height: 120rpx;
+}
